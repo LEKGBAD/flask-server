@@ -7,8 +7,8 @@ CORS(app);
 def home():
     return render_template('index.html')
     # return jsonify({"message":"obe eja"})
-@app.route("/ext",methods=['GET'])
-def ext():
+@app.route("/ext")
+def visit():
     return render_template('index.html')
 
 
