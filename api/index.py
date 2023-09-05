@@ -7,7 +7,7 @@ CORS(app);
 def home():
     return render_template('index.html')
     # return jsonify({"message":"obe eja"})
-@app.route("/extapi/home",methods=['GET'])
+@app.route("/ext",methods=['GET'])
 def homeApi():
     return render_template('ext.html')
 
