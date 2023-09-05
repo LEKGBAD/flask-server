@@ -8,7 +8,7 @@ def home():
     return render_template('index.html')
     # return jsonify({"message":"obe eja"})
 @app.route("/ext",methods=['GET'])
-def homeApi():
+def ext():
     return render_template('ext.html')
 
 
