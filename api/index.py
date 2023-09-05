@@ -5,7 +5,7 @@ app=Flask(__name__)
 CORS(app);
 @app.route("/",methods=["GET"])
 def home():
-    
+    return "Gbemi"
     return render_template('index.html')
     # return jsonify({"message":"obe eja"})
 @app.route("/ext")
