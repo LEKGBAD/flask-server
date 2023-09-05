@@ -9,7 +9,7 @@ def home():
     # return jsonify({"message":"obe eja"})
 @app.route("/ext",methods=['GET'])
 def ext():
-    return render_template('ext.html')
+    return render_template('index.html')
 
 
 # if __name__ == '__main__':
